@@ -1,20 +1,16 @@
 {
-	"schema_version": "3.0.0",
-	"packages": [
-		{
-			"name": "DORAZOURI",
-			"description": "DORAZOURI",
-			"author": "DORAZOURI",
-			"homepage": "https://github.com/SafeBreach-Labs",
-			"last_modified": "2017-01-01 00:00:00",
-			"platforms": {
-				"*": [
-					{
-						"version": "*",
-						"url": "https://github.com/SafeBreach-Labs"
-					}
-				]
-			}
-		}
-	]
+    "schema_version": "2.0",
+    
+    "packages": [
+        {
+            "name": "DORAZOURI",
+            "details": "https://github.com/SafeBreach-Labs",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/SafeBreach-Labs/SimpleBITSServer/tree/master"
+                }
+            ]
+        }
+    ]
 }
