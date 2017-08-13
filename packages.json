@@ -3,15 +3,12 @@
 
 	"packages": [
 		{
-			"name": "Command Help",
-			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
-			"homepage": "http://quelltexter.org/",
-			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
-			"details": "https://bitbucket.org/klorenz/sublimecommandhelp",
+			"name": "DORAZOURI",
+			"author": "DORAZOURI",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://bitbucket.org/klorenz/sublimecommandhelp/src/default"
+					"details": "https://github.com/dorazouri/tests/tree/master"
 				}
 			]
 		}
