@@ -1,14 +1,15 @@
 {
     "schema_version": "2.0",
-    
     "packages": [
         {
-            "name": "PHP Code Coverage",
-            "details": "https://github.com/bradfeehan/SublimePHPCoverage",
+            "name": "DashDoc",
+            "description": "Open the selected text or text under cursor in Dash documentation browser",
+            "details": "https://github.com/farcaller/DashDoc",
             "releases": [
                 {
                     "sublime_text": "*",
-                    "details": "https://github.com/bradfeehan/SublimePHPCoverage/tags"
+                    "platforms": ["osx", "windows", "linux"],
+                    "details": "https://github.com/farcaller/DashDoc/tags"
                 }
             ]
         }
