@@ -3,7 +3,7 @@
     
     "packages": [
         {
-            "name": "DORAZOURI",
+            "name": "PHP Code Coverage",
             "details": "https://github.com/bradfeehan/SublimePHPCoverage",
             "releases": [
                 {
