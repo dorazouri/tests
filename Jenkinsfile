@@ -37,5 +37,27 @@ pipeline {
       }
     }
 
+    stage('Equipment') {
+      steps {
+        echo 'Get to know your seat'
+        echo 'Unbox laptop'
+        echo 'Set up monitors/docking station'
+      }
+    }
+
+    stage('Gmail Registration') {
+      steps {
+        echo 'Perform first login and set up 2FA'
+      }
+    }
+
+    stage('Services Registration') {
+      steps {
+        echo 'Slack'
+        echo 'LastPass'
+        echo 'Trello'
+      }
+    }
+
   }
 }
