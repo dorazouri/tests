@@ -8,5 +8,13 @@ pipeline {
       }
     }
 
+    stage('Literature') {
+      steps {
+        echo 'Read python book'
+        echo 'Browse the team\'s twitter lists'
+        echo 'Read provided articles'
+      }
+    }
+
   }
 }
