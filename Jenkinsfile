@@ -59,5 +59,23 @@ pipeline {
       }
     }
 
+    stage('Services Intro /w TL') {
+      steps {
+        echo 'Overview of usage conventions'
+      }
+    }
+
+    stage('10bis') {
+      steps {
+        echo 'Get 10bis card from HR office'
+      }
+    }
+
+    stage('Software Installation') {
+      steps {
+        echo 'Install Git'
+      }
+    }
+
   }
 }
