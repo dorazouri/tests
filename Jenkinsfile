@@ -78,27 +78,29 @@ pipeline {
             echo 'Install Chrome'
           }
         }
-        
+
         stage('Git') {
           steps {
             echo 'Install Git'
           }
         }
-        
+
         stage('Python') {
           steps {
             echo 'Install Python 2.7'
             echo 'Install Python 3 latest'
           }
         }
-        
+
         stage('Visual Studio') {
           steps {
             echo 'Install VS including Win10 SDK and Debugging tools'
             echo 'Make sure WindDbg is working'
           }
         }
+
       }
     }
+
   }
 }
