@@ -99,6 +99,52 @@ pipeline {
           }
         }
 
+        stage('IDA') {
+          steps {
+            echo 'Install IDA'
+          }
+        }
+
+        stage('IDE') {
+          steps {
+            echo 'Install IDE of your choice'
+          }
+        }
+
+        stage('Text Editor') {
+          steps {
+            echo 'Install text editor of your choice'
+          }
+        }
+
+        stage('MongoDB Client') {
+          steps {
+            echo 'Install Robo 3T'
+            echo 'Connect using '
+          }
+        }
+
+        stage('WireShark') {
+          steps {
+            echo 'Install WireShark'
+          }
+        }
+
+        stage('Printer Setup') {
+          steps {
+            echo 'Connect to printer at 192.168.10.3'
+          }
+        }
+
+        stage('Tools and Extensions of the Team') {
+          steps {
+            echo 'Install ngrok'
+            echo 'Install scapy'
+            echo 'Install VirtualBox'
+            echo 'Install vi Chrome Extension'
+          }
+        }
+
       }
     }
 
